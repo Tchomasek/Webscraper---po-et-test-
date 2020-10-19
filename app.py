@@ -50,6 +50,7 @@ while True:
         gmail.starttls()
         gmail.login(from_email, from_password)
         gmail.send_message(msg)
+        break
     else:
         print('not updated')
     time.sleep(300)
